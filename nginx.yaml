@@ -27,3 +27,8 @@ spec:
     nodePort: 31112
     protocol: TCP
   selector:
+####
+##
+# master $ kubectl create -f nginx.yaml
+# deployment.apps/nginx-two-deployment created
+# service/nginx-two created
